@@ -1,13 +1,38 @@
 {
   "name": "tsell-ai",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Port to node typescript of the ell-ai python library, a nice dev experience to create LLM workflows",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luismartinezs/tsell-ai.git"
+  },
+  "funding": "https://github.com/sponsors/luismartinezs",
   "scripts": {
     "ts": "pnpx ts-node -r tsconfig-paths/register",
     "test": "vitest"
   },
-  "author": "",
+  "author": {
+    "name": "Luis Martinez",
+    "email": "luismartinezwebdev@gmail.com",
+    "url": "https://www.webdevluis.com"
+  },
+  "keywords": [
+    "llm",
+    "prompting",
+    "prompt engineering",
+    "typescript",
+    "ell-ai",
+    "openai",
+    "gpt-4o",
+    "gpt-4",
+    "gpt-3.5",
+    "ai",
+    "artificial intelligence",
+    "agent",
+    "agentic",
+    "agentic programming"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.5.5",
