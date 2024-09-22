@@ -1,0 +1,25 @@
+{
+  "name": "tsell-ai",
+  "version": "1.0.0",
+  "description": "Port to node typescript of the ell-ai python library, a nice dev experience to create LLM workflows",
+  "main": "index.js",
+  "scripts": {
+    "ts": "pnpx ts-node -r tsconfig-paths/register",
+    "test": "vitest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.6.2",
+    "vitest": "^2.1.1"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^6.0.1",
+    "openai": "^4.63.0",
+    "ts-node": "^10.9.2",
+    "uuid": "^10.0.0",
+    "zod": "^3.23.8"
+  }
+}
